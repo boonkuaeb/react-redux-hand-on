@@ -1,8 +1,8 @@
-import {combindReduders} from 'redux';
-import courses from './courseReducer';
+import { combineReducers } from "redux";
+import courses from "./courseReducer";
 
-const rootReducer = combindReduders({
-    courses
+const rootReducer = combineReducers({
+  courses
 });
 
 export default rootReducer;
